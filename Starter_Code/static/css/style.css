@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.legend-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.legend-items div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-items div span {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.legend i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+
